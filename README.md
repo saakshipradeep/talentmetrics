@@ -2,15 +2,6 @@
 
 A free, **static and interactive** GitHub Pages portfolio dashboard. The main demo uses HTML, CSS and vanilla JavaScript and requires **no Python runtime, API keys, or external libraries**. A separate `streamlit_app.py` preserves the original Python/Streamlit prototype.
 
-## Publish on GitHub Pages
-1. Create a public GitHub repository (for example `talentmetrics`).
-2. Upload `index.html`, `styles.css`, `app.js`, `README.md` (and optionally `streamlit_app.py` and `requirements.txt`) to the repository root.
-3. Open repository **Settings → Pages → Build and deployment**.
-4. Choose **Deploy from a branch**, branch **main**, folder **/(root)**, then **Save**.
-5. Wait for the published URL to appear in Pages settings. Usually `https://YOUR-USERNAME.github.io/talentmetrics/`.
-
-To test locally, open `index.html` in a browser. No build step is required.
-
 ## Features
 - Six dynamic recruitment KPIs, current pipeline stages, weekly application volume, university distribution.
 - Recruiter workload, configurable operational attention queue, simulated stage-age diagnostics.
